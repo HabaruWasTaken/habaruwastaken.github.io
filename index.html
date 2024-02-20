@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container nav-container">
+          <a class="navbar-brand" href="#">
+              <img src="./Images/logo.png" alt="Hanado" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">   
+                    <a class="nav-link" href="#">Our Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Delivery</a>
+                  </li>
+                </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control rounded-pill shadow" type="Capuccino" placeholder="Capuccino" aria-label="Cappucino">
+              <i class="ai-search"></i>
+              <button class="btn" type="submit"><i class="ai-cart"></i></button>
+            </form>
+          </div>  
+        </div>
+      </nav>
+      <div class="container-fluid home">
+        <img src="./Images/bg-hero.png" alt="" class="bg-hero">
+        <img src="./Images/bg-hero-2.png" alt="" class="bg-hero-2">
+        <div class="container-sm container-left">
+          <div class="title">Enjoy your <span>coffee</span><br>before your activity</div>
+          <div class="desc">Boost your productivity and build your<br>mood with a glass of coffee in the morning</div>
+          <div class="btns">
+            <div class="btn rounded-pill btn-order">Order now <i class="ai-cart"></i></div>
+            <div class="btn btn-menu">More menu</div>
+          </div>
+        </div>
+        <div class="container-sm container-right">  
+            <div class="coffe-bg"></div>
+            <img src="./Images/coffe-glass.png" alt="" class="coffe-img">
+            <svg class="coffe-transparent" width="435" height="253" viewBox="0 0 435 253" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g style="mix-blend-mode:screen" opacity="0.1">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M301.437 14.0591C301.437 50.5579 288.392 85.5615 265.172 111.37C241.952 137.179 210.459 151.678 177.621 151.678C144.783 151.678 113.289 137.179 90.0695 111.37C66.8495 85.5615 53.8046 50.5579 53.8046 14.0591C53.8046 14.0591 124.557 44.1634 177.621 14.0591C230.685 -16.0453 301.437 14.0591 301.437 14.0591ZM342.858 107.631C336.213 122.252 328.185 135.528 319.125 146.728C313.458 152.224 308.698 157.379 304.284 162.16C281.144 187.22 267.486 202.011 182.239 202.011C93.2949 202.011 81.9833 189.871 54.4414 160.313L54.4411 160.313C50.5502 156.137 46.3353 151.614 41.5319 146.728C2.72711 107.257 0.740479 67.5161 0.740479 17.457H36.1165C36.1165 88.7618 66.5293 123.017 66.5293 123.017C66.5293 123.017 93.799 168.478 182.239 168.478C270.679 168.478 292.593 123.017 292.593 123.017C292.593 123.017 322.947 71.9842 322.947 13.2626H360.027C364.605 11.8374 369.383 10.9585 374.251 10.6672C386.521 9.93312 398.713 12.9717 409.018 19.3319C419.324 25.6922 427.192 35.0351 431.455 45.9734C435.717 56.9118 436.148 68.8625 432.682 80.0513C429.216 91.2399 422.038 101.071 412.215 108.083C402.391 115.095 390.446 118.916 378.152 118.978C365.858 119.04 353.87 115.339 343.969 108.426C343.595 108.165 343.225 107.9 342.858 107.631ZM361.221 43.7423C365.532 40.6754 370.703 38.8601 376.104 38.5368C382.054 38.1809 387.965 39.6542 392.962 42.7381C397.959 45.822 401.774 50.3521 403.841 55.6558C405.908 60.9594 406.116 66.7539 404.436 72.1791C402.755 77.6042 399.275 82.3707 394.512 85.7704C389.749 89.1713 383.957 91.0235 377.996 91.0537C372.034 91.0839 366.222 89.2895 361.422 85.9374C358.333 83.7811 355.769 81.0542 353.87 77.9437C357.124 66.8795 359.613 55.3992 361.221 43.7423ZM20.5924 227.177H343.493C349.573 227.177 354.501 232.811 354.501 239.76C354.501 246.71 349.573 252.344 343.493 252.344H20.5924C14.5129 252.344 9.58444 246.71 9.58444 239.76C9.58444 232.811 14.5129 227.177 20.5924 227.177Z" fill="#F9D9AA"/>
+              </g>
+              </svg>
+            <div class="bubble rounded-pill bubble-1">Cappucino</div>
+            <div class="bubble rounded-pill bubble-2">4.8 <i class="fa-solid fa-star star"></i> </div>
+              
+            <div class="bubble rounded-pill bubble-3">18K</div>
+        </div>
+      </div>
+      <div class="container popular-now">
+        <div class="title">Popular <span>Now</span></div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card card-1">
+              <div class="card-body">
+                <img src="./Images/product-1.png" alt="" class="card-img">
+                <div class="bubble rounded-pill">4.8<i class="fa-star fa-solid star"></i></div>
+                <div class="product">
+                  <div class="product-name">Vanilla Latte</div>
+                  <div class="product-price">21 K</div>
+                </div>
+                <div class="buy">
+                  <div class="hot btn active">Hot</div>
+                  <div class="cold btn">Cold</div>
+                  <i class="ai-cart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-2">
+              <div class="card-body">
+                <img src="./Images/product-2.png" alt="" class="card-img">
+                <div class="bubble rounded-pill">4.8<i class="fa-star fa-solid star"></i></div>
+                <div class="product">
+                  <div class="product-name">Espresso</div>
+                  <div class="product-price">12 K</div>
+                </div>
+                <div class="buy">
+                  <div class="hot btn">Hot</div>
+                  <div class="cold btn">Cold</div>
+                  <i class="ai-cart"></i>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col">
+            <div class="card card-3">
+              <div class="card-body">
+                <img src="./Images/product-3.png" alt="" class="card-img">
+                <div class="bubble rounded-pill">4.8<i class="fa-star fa-solid star"></i></div>
+                <div class="product">
+                  <div class="product-name">Hazelnut Latte</div>
+                  <div class="product-price">23 K</div>
+                </div>
+                <div class="buy">
+                  <div class="hot btn">Hot</div>
+                  <div class="cold btn">Cold</div>
+                  <i class="ai-cart"></i>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popular-now-bg"></div>
+      </div>
+      <div class="container service">
+        <div class="title">How to use delivery <span>service</span></div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <img src="./Images/service-1.png" alt="" class="service-1">
+            <div class="desc-1">Choose your coffee</div>
+            <div class="desc-2">There are 20+ coffees for you</div>
+          </div>
+          <div class="col">
+            <img src="./Images/service-2.png" alt="" class="service-2">
+            <div class="desc-1">We delivery it to you</div>
+            <div class="desc-2">Thoose delivery service</div>
+          </div>
+          <div class="col">
+            <img src="./Images/service-3.png" alt="" class="service-3">
+            <div class="desc-1">Enjoy your coffee</div>
+            <div class="desc-2">Choose delivery service</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid about">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <img src="./Images/highlight-product.png" alt="">
+          </div>
+          <div class="col">
+            <div class="title">About <span>us</span></div>
+            <div class="desc-1">We provide quality coffee,<br>and ready to deliver.</div>
+            <div class="desc-2">We are company that makes and distributes delicious drinks. Our main product is made with a secret recipe and available in stores worldwide.</div>
+            <div class="btn rounded-pill">Get your coffee</div>
+          </div>
+        </div>
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/08c5ec823d.js" crossorigin="anonymous"></script>
+</body>
+</html>
