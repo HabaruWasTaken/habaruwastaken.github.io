@@ -60,7 +60,7 @@ html, body {
     position: relative;
 }
 
-.nav .form-control {
+.navbar .form-control {
     margin-right: 8px;
     padding: 9px 12px;
     padding-left: 50px;
