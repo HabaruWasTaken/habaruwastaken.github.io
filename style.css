@@ -60,7 +60,7 @@ html, body {
     position: relative;
 }
 
-.form-control {
+.nav .form-control {
     margin-right: 8px;
     padding: 9px 12px;
     padding-left: 50px;
@@ -485,4 +485,244 @@ i {
     padding: 8px 18px;
     font-size: 12px;
     font-weight: 700;
+}
+
+.menu {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.menu .title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.menu .title span::after {
+    width: 95px;
+    height: 4px;
+    border-radius: 3px;
+    position: absolute;
+    top: 39px;
+    left: 202px;
+    content: "";
+    display: flex;
+    background-color: var(--orange);
+}
+
+.menu .row {
+    margin: 30px 0;
+}
+
+.menu .card {
+    box-shadow: 0 0 16px 1cap rgba(0, 0, 0, 0.15);
+    outline: 5px solid rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .card img {
+    width: 310px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.menu .bubble {
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px 8px;
+    position: absolute;
+    top: 32px;
+    left: 22px;
+    box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 4px solid rgba(255, 255, 255, 0.7);
+    width: 60px;
+}
+
+.menu .star {
+    color: gold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.menu .product {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 12px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.menu .buy i {
+    background-color: var(--orange);
+    padding: 6px 11px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 90px;
+}
+
+.testimonial {
+    position: relative;
+    height: 450px;    
+    display: flex;
+}
+
+.testimonial .bg {
+    position: absolute;
+    left: 0;
+    width: 880px;
+    height: 450px;
+    background: antiquewhite url('./Images/bg-testimonial.png') no-repeat center;
+    background-blend-mode: soft-light;
+    background-size: contain;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: -1;
+}
+
+.testimonial .container-left {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    width: 450px;
+}
+
+.testimonial .container-left .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.testimonial .container-left .desc {
+    font-size: 18px;
+    width: 300px;
+    color: gray;
+}
+
+.testimonial .container-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+    padding-left: 50px;
+    color: black;
+}
+
+.testimonial .container-right .card {
+    margin-right: 75px;
+    border: none;
+}
+
+.testimonial .container-right img {
+    height: 250px;
+}
+
+.testimonial .container-right .bubble {
+    background-color: rgb(255, 201, 119);
+    border-radius: 10px;
+    width: 205px;
+    position: absolute;
+    bottom: 20px;
+    right: -50px;
+    padding: 8px 12px;
+    line-height: 22px;
+    box-shadow: 0 0 0 5px rgba(255, 197, 109, 0.5);
+}
+
+.testimonial .container-right .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonial .container-right .desc {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.testimonial .load {
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonial .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 140, 0, 0.342);
+    margin: 5px;
+}
+
+.testimonial .dot.active{
+    background-color: darkorange;
+}
+
+.news {
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news .container {
+    background: url('Images/bg-newsletter.png') center no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.news .title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.news .form-control {
+    width: 350px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.news .btn {
+    background-color: rgb(47, 33, 5);
+    color: white;
+    position: absolute;
+    padding: 6px 20px;
+    right: 4px;
 }
